@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+        }
+
+        .personal-info {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 15px;
+            color: #2c3e50;
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .contact {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 24px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 i {
+            margin-right: 10px;
+            color: #3498db;
+        }
+
+        .entry {
+            margin-bottom: 25px;
+        }
+
+        .title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        .tech-stack {
+            font-size: 14px;
+            color: #777;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .section p {
+            margin-top: 0;
+        }
+
+        .self-evaluation {
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="personal-info">
+                <h1>XXX</h1>
+                <div class="contact">
+                    <i class="fa-solid fa-bullseye"></i> 求职目标: XXX相关岗位<br> &nbsp;&nbsp;
+                    <i class="fa-solid fa-id-card"></i> 驾照: XX
+                    <i class="fa-solid fa-calendar"></i> 出生年月: 2XXX/XX/XX<br> &nbsp;&nbsp;
+                    <i class="fa-solid fa-mobile-screen-button"></i> 电话: 1XXX880XXXX
+                    <i class="fa-solid fa-envelope-open"></i> 邮箱: XXXXX@outlook.com
+                </div>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-book-reader"></i> 教育背景</h2>
+            <div class="entry">
+                <div class="title">XXX大学 | 计算机科学与技术 | 本科 | 2022年-2026年7月</div>
+                <ul>
+                    <li>主修课程: 《数据库与数据管理》《系统维护与管理》《大数据开发》《python》等</li>
+                    <li>平均绩点: 3.5，排名专业前85%</li>
+                    <li>担任班级委员，负责管理班级日常事务、组织班级活动及学习小组</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-code"></i> 专业技能</h2>
+            <div class="entry">
+                <div class="title">专业技术</div>
+                <ul>
+                    <li>人工智能领域：掌握人工智能训练技能，深入了解智能客服系统开发逻辑</li>
+                    <li>软件开发：精通网站前端开发与后端维护，熟练运用工具，具备扎实的设计基础</li>
+                    <li>系统运维：能够独立完成计算机系统及硬件的安装、维护工作，熟悉各类硬件故障解决方案</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-laptop-code"></i> 在校项目经历</h2>
+            <div class="entry">
+                <div class="title">信息数据库管理</div>
+                <div class="tech-stack">主要技术栈: PHP + Mysql + Bootstrap</div>
+                <ul>
+                    <li>数码产品信息类管理系统，具有增删改查等必备功能</li>
+                    <li>优化页面加载速度，数据读取与写入无速度障碍</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="title">大模型微信公众号接入</div>
+                <div class="tech-stack">主要技术栈: Mysql + Openapi + Python</div>
+                <ul>
+                    <li>独立开发用户回复系统，优先使用数据库内容，若无则按照客服设定安抚</li>
+                    <li>设计并优化数据库表结构，减少部分查询响应时间</li>
+                    <li>大模型api接入使用边缘函数中转，无视网络防火墙，可接入国内AI</li>
+                    <li>配合数据库管理导入，完美实现功能</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="title">人工智能大模型训练</div>
+                <div class="tech-stack">主要职责：数据集处理，小层数训练</div>
+                <ul>
+                    <li>全程作为助理参与训练，熟悉开发流程</li>
+                    <li>基于DistilBERT二次开发，能够进行文本分类、命名实体识别</li>
+                    <li>编写测试，测试覆盖大部分，稳定性较好</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-trophy"></i> 奖励荣誉</h2>
+            <ul>
+                <li>荣获"社会实践优秀个人"、"优秀班干部"称号</li>
+                <li>获得"优秀志愿者"荣誉</li>
+                <li>通过组织班级活动及学习小组，显著提升班级凝聚力与整体学习氛围</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-certificate"></i> 证书荣誉</h2>
+            <ul>
+                <li>"优秀社员"、"优秀学生"、优秀班干部</li>
+                <li>普通话二级甲等、全国计算机二级证书、CET-4</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fa-solid fa-user"></i> 自我评价</h2>
+            <div class="self-evaluation">
+                <p>作为一名计算机专业的在读本科生，具备扎实的专业基础知识和丰富的项目实践经验。在学习和项目中，有较强的问题解决能力和团队协作精神，能够快速适应新环境和学习新技术。</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
